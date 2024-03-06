@@ -1,0 +1,177 @@
+.chat-row {
+    display: flex;
+    margin: 5px;
+    width: 100%;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.chat-bubble {
+    font-family: "Source Sans Pro", sans-serif, "Segoe UI", "Roboto", sans-serif;
+    border: 1px solid transparent;
+    padding: 5px 10px;
+    margin: 0px 7px;
+    max-width: 90%;
+}
+
+.ai-bubble {
+    background: rgb(240, 242, 246);
+    border-radius: 10px;
+}
+
+.human-bubble {
+    background: linear-gradient(135deg, rgb(0, 178, 255) 0%, rgb(0, 106, 255) 100%); 
+    color: white;
+    border-radius: 20px;
+}
+
+.chat-icon {
+    border-radius: 5px;
+}
+
+.body, html {
+    height: 100%;
+    margin: 0;
+    background-image: url('https://raw.githubusercontent.com/zzjy222/seahawkAItool.github.io/main/static/background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h1 {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 32px; 
+    font-weight: bold; 
+    color: #005f73; 
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+.nfl-logo {
+    display: block;
+    margin: 0 auto;
+    width: 100px; /* You can adjust the width as needed */
+    height: auto;
+}
+
+/* Style the navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #69BE28; /* Seahawks color */
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navigation bar links */
+  .navbar a {
+    float: left;
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the color of links on hover */
+  .navbar a:hover {
+    background-color: #005C5C; /* Seahawks color */
+    color: white;
+  }
+  
+  /* Responsive navigation bar */
+  @media screen and (max-width: 600px) {
+    .navbar a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+
+/*new section*/ 
+.h1 {
+    font-size: 2.5em; /* Larger font size for the main title */
+    color: #69BE28; /* Seahawks vibrant green for emphasis */
+    font-weight: bold; /* Make it bold */
+    text-align: center; /* Center align the title */
+    margin-bottom: 1rem; /* Add some space below the title */
+}
+
+/* Establishing visual hierarchy for subtitles/headings on the page */
+.h2 {
+    font-size: 2em;
+    color: #002244; /* Seahawks navy blue for secondary titles */
+    margin-bottom: 0.5rem;
+}
+
+/* Standard text styles for body copy to support hierarchy */
+.p, li {
+    font-size: 1em;
+    color: #333; /* Standard text color for readability */
+    line-height: 1.6; /* Adequate line spacing for readability */
+}
+
+
+/* Increase the visual weight of the main title for the chatbot */
+.chatbot-title {
+    font-size: 2.5rem; /* Increase font size */
+    color: #69BE28; /* Use a color that stands out, like the Seahawks green */
+    font-weight: bold; /* Make it bold */
+    margin-top: 0.5rem;
+    margin-bottom: 1rem; /* Add more space around the title */
+}
+
+/* Establish a visual hierarchy for headings and text */
+.h1, .title {
+    font-size: 2rem; /* Larger size for main headings */
+    color: #003366; /* A darker shade for contrast */
+    font-weight: bold;
+}
+
+.h2, .subtitle {
+    font-size: 1.5rem; /* Slightly smaller size for subheadings */
+    color: #69BE28; /* Maintain brand color for visual consistency */
+}
+
+.p, .text {
+    font-size: 1rem; /* Standard text size */
+    color: #333; /* Standard text color for optimal readability */
+    line-height: 1.6; /* Adequate line spacing for readability */
+}
+
+/* Make sure the chatbox stands out */
+.chatbox {
+    border: 2px solid #69BE28; /* Add a border to the chatbox */
+    padding: 1rem; /* Add padding inside the chatbox */
+    border-radius: 0.5rem; /* Slightly round the corners of the chatbox */
+}
+
+/* Style the submit button to match the site's theme */
+.submit-button {
+    background-color: #69BE28; /* Background color for the button */
+    color: white; /* Text color for the button */
+    border: none; /* Remove default border */
+    padding: 0.5rem 1rem; /* Add padding to increase size and readability */
+    border-radius: 0.5rem; /* Round the corners of the button */
+    font-weight: bold; /* Make the button text bold */
+}
+
+/* Add a hover effect to the submit button for interactivity */
+.submit-button:hover {
+    background-color: #005c5c; /* Darker shade for the hover state */
+    cursor: pointer; /* Change cursor to indicate it's clickable */
+}
+
+.chat-area, .chat-box, .chat-interface {
+    width: 100%; /* Adjust width to your preference, 100% for full width */
+    max-width: 800px; /* Or set a max-width for large screens */
+    margin: 0 auto; /* Center the chat box if it's not full width */
+    padding: 20px; /* Add some padding inside the chat area */
+}
+
+/* You might also want to adjust the height of the chat area */
+.chat-area {
+    min-height: 500px; /* Set a minimum height */
+}
