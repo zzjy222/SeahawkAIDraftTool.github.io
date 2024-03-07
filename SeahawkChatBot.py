@@ -70,7 +70,7 @@ if "retriever" not in st.session_state:
         es_cloud_id=CLOUD_ID,
         es_user=CLOUD_USERNAME,
         es_password=CLOUD_PASSWORD,
-        index_name="seahawk5",
+        index_name="seahawk6",
         strategy=ElasticsearchStore.SparseVectorRetrievalStrategy()
     )
 
